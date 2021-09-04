@@ -1,9 +1,9 @@
 # INTRODUCTION
 
-![Tests](https://github.com/maxcountryman/flask-login/workflows/Tests/badge.svg)
+![Tests](https://github.com/tlh45342/flask-example2/workflows/Tests/badge.svg)
 [![Software License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 
-flask-example1 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever. This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been independently checked as they are missing critical pieces (glue, code, whatever).  Then there are long drawn-out blogs (for which I am thankful for) but where the "magic" of the developing intermediate steps per stage are missing.  Hence:  There is a flask-example2 as a seperate which adopts additional complexity and is designed to look more like a portal / application. 
+flask-example2 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever. This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been independently checked as they are missing critical pieces (glue, code, whatever).  Then there are long drawn-out blogs (for which I am thankful for) but where the "magic" of the developing intermediate steps per stage are missing.  Hence:  There is a flask-example2 as a seperate which adopts additional complexity and is designed to look more like a portal / application. 
 
 Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple Mac OS x.
 
@@ -15,7 +15,7 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 The small section will discuss how just to simply run the app.  Most notably this app does not use SSL (I did say this was simple right?)
 
 ```bash
-git clone https://github.com/tlh45342/flask-example1.git
+git clone https://github.com/tlh45342/flask-example2.git
 ```
 
 To make sure you have all the python modules installed.
@@ -33,10 +33,10 @@ As much as I hate assumptions - you will need to edit this to your tastes and fo
 
 ```bash
 [Unit]
-Description=flask-example1
+Description=flask-example2
 
 [Service]
-WorkingDirectory=/mnt/python/flask-example1/
+WorkingDirectory=/mnt/python/flask-example2/
 ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
 
 [Install]
@@ -72,7 +72,7 @@ sudo systemctl stop flask1.service
  
 ## LICENSE
 
-flask-example1 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+flask-example2 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
 
 ## ACKNOWLEDGEMENTS
 
