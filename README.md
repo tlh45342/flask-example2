@@ -2,7 +2,8 @@
 
 [![Software License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 
-flask-example2 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever. This is simply designed TO WORK.  There are a lot of Flask examples out there that either are incomplete or are online tutorials that could not have ever been independently checked as they are missing critical pieces (glue, code, whatever).  Then there are long drawn-out blogs (for which I am thankful for) but where the "magic" of the developing intermediate steps per stage are missing.  Hence:  There is a flask-example2 as a seperate which adopts additional complexity and is designed to look more like a portal / application. 
+flask-example2 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever. This is simply designed TO WORK.
+This example is designed to implement SSL, flask_login, and sqlite.
 
 Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple Mac OS x.
 
