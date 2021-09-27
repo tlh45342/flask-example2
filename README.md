@@ -56,19 +56,7 @@ sudo systemctl stop flask1.service
 
     ├── LICENSE                     Copy of the Apache 2.0 license
     ├── requirements.txt            module requirements
-    ├── server.py                   Wsgi app
-    └── app
-       ├── __init__.py
-       ├── app.py                   Main App
-       ├── routes.py                flask routes
-       ├── static                   Static files
-       │   └── css
-       │      ├── normalize.css    
-       │      └── skeleton.css      
-       └── templates                Jinja2 templates
-           ├── html_tamplates.html
-           ├── login.html
-           └── welcome.html
+    └── server.py                   Wsgi app
  
 ## LICENSE
 
