@@ -25,13 +25,14 @@ pip install -r requirements.txt
 ```
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
-I am putting my notes here now - because I will use them.  Consider these random notes used to implement the Flask APP as a service.
+I am putting my notes here now - because I will use them.  Consider these notes used to implement the Flask APP as a service.
 
 To create a service entry cd /etc/systemd/system
 Create a file that looks something like is found in the following block.
 As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
 
 ```bash
+cat <<EOF | sudo tee /etc/systemd/system/flask-example4.service
 [Unit]
 Description=flask-example2
 
@@ -41,6 +42,7 @@ ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
 
 [Install]
 WantedBy=multi-user.target
+EOF
 ```
 
 The key commands for reference are: 
@@ -54,6 +56,8 @@ sudo systemctl stop flask1.service
 
 ## STRUCTURE
 
+    ├── cert.pem                    A fairly generic cert.   
+    ├── key.pem                     The key for the above generic cert. 
     ├── LICENSE                     Copy of the Apache 2.0 license
     ├── requirements.txt            module requirements
     └── server.py                   Wsgi app
