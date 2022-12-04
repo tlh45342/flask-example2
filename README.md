@@ -42,6 +42,12 @@ Please note:  After October 1, 2020 github changed the default branch from **MAS
 So please remember to put #main at the end of the request - or rename your branch in github to master.  
 As of this writing "docker build github..." uses **MASTER** as the default.
 
+The result might be
+
+```bash
+docker run -it -d -p 443:443 dca6
+```
+
 # Quick note about docker image clean up.
 PLEASE REVIEW THIS CAREFFULLY BEFORE USING.
 This would delete containers and images that aren't running.
