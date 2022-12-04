@@ -39,6 +39,9 @@ Should be able to use the following - but it looks like I need to discover somet
 docker build git://github.com/tlh45342/flask-example2.git
 ```
 
+```bash
+docker build github.com/tlh45342/docker-eample
+```
 
 # Quick note about docker image clean up
 ```bash
