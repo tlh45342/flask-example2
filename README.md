@@ -10,6 +10,7 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 
 This was created demonstrate how to use Flask /w SSL.
 
+
 ## INSTALLATION
 
 Too simply run the app.  
@@ -23,6 +24,11 @@ To make sure you have all the python modules installed.
 ```bash
 pip install -r requirements.txt
 ```
+Then start the app:
+```bash
+python3 server.py
+```
+
 
 ## DOCKER
 
@@ -57,6 +63,7 @@ docker container prune -f
 docker image prune -a -f
 ```
 
+
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
 I am putting my notes here now - because I will use them.  Consider these notes used to implement the Flask APP as a service.
@@ -89,6 +96,7 @@ sudo systemctl restart flask-example2.service
 sudo systemctl stop flask-example2.service
 ```
 
+
 ## STRUCTURE
 
     ├── cert.pem                    A generic cert.   
@@ -100,13 +108,16 @@ sudo systemctl stop flask-example2.service
     ├── install-service.sh          Shell script to install service script   
     └── server.py                   Wsgi app
 
+
 ##
 
 As noted this repository was contains a Dockerfile and docker.compose.yml file.
 
+
 ## LICENSE
 
 flask-example2 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+
 
 ## ACKNOWLEDGEMENTS
 
