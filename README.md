@@ -13,7 +13,7 @@ Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple M
 
 ## INSTALLATION
 
-The small section will discuss how just to simply run the app.  Most notably this app does not use SSL (I did say this was simple right?)
+The small section will discuss how just to simply run the app.  
 
 ```bash
 git clone https://github.com/tlh45342/flask-example2.git
