@@ -50,9 +50,9 @@ The key commands for reference are:
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl start flask1.service
-sudo systemctl restart flask1.service
-sudo systemctl stop flask1.service
+sudo systemctl start flask-example2.service
+sudo systemctl restart flask-example2.service
+sudo systemctl stop flask-example2.service
 ```
 
 ## STRUCTURE
