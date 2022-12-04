@@ -37,7 +37,7 @@ If wanting to create as a docker image the following command can be used.
 ```bash
 git clone https://github.com/tlh45342/flask-example2.git
 cd flask-example2
-docker-compose up
+docker-compose up -d
 ```
 
 *One line command to build docker image.*
