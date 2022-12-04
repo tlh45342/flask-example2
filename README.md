@@ -30,8 +30,7 @@ I am putting my notes here now - because I will use them.  Consider these notes 
 To create a service entry cd /etc/systemd/system
 Create a file that looks something like is found in the following block.
 As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
-This one assumes the install is at the /opt directory.  This is convienent for creation as as service file as well as  
-placing this in a Docker container.
+This one assumes the install is at the /opt directory.  This is convienent for creation as as service file as well as placing this in a Docker container.
 
 ```bash
 cat <<EOF | sudo tee /etc/systemd/system/flask-example2.service
@@ -59,7 +58,7 @@ sudo systemctl stop flask1.service
 ## STRUCTURE
 
     ├── cert.pem                    A fairly generic cert.   
-    ├── Dockerfile                  Dockerfile to creaate as a container   
+    ├── Dockerfile                  Dockerfile - used to creaate as a container   
     ├── key.pem                     The key for the above generic cert. 
     ├── LICENSE                     Copy of the Apache 2.0 license
     ├── requirements.txt            module requirements
