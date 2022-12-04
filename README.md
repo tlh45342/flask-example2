@@ -45,8 +45,9 @@ So please not to put #main at the end of the request.
 docker build github.com/tlh45342/docker-eample
 ```
 
-# Quick note about docker image clean up.  PLEASE MAKE SURE THIS IS WHAT YOU WANT - as it would 
-delete containers and images that aren't running but you intended to keep.
+# Quick note about docker image clean up.
+PLEASE MAKE SURE THIS IS WHAT YOU WANT  
+This would delete containers and images that aren't running but you intended to keep.
 ```bash
 docker container prune -f
 docker image prune -a -f
