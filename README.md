@@ -37,8 +37,8 @@ cat <<EOF | sudo tee /etc/systemd/system/flask-example4.service
 Description=flask-example2
 
 [Service]
-WorkingDirectory=/mnt/python/flask-example2/
-ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
+WorkingDirectory=/opt/flask-example2/
+ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:443 -w 4 server:app
 
 [Install]
 WantedBy=multi-user.target
@@ -74,4 +74,5 @@ Please note that this does include http://getskeleton.com/ skeleton.css and norm
 URLS:
   https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins
   https://medium.com/analytics-vidhya/how-to-use-flask-login-with-sqlite3-9891b3248324
-     * There are errors in the above medium document (reviewed: 9/4/2021) - however I was able to bridge the gap and fill in holes in my knowledge with this.
+     * At the last review there were errors in the above medium document (reviewed: 9/4/2021)
+     however I was able to bridge the gap and fill in holes in my knowledge with this.
