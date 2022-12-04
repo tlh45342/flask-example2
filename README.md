@@ -36,7 +36,7 @@ docker-compose up
 
 Should be able to use the following - but it looks like I need to discover something to tweak.
 ```bash
-docker build git://github.com/tlh45342/flask-example2.git
+docker build git://github.com/tlh45342/flask-example2
 ```
 
 ```bash
