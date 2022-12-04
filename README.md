@@ -57,7 +57,7 @@ sudo systemctl stop flask1.service
 
 ## STRUCTURE
 
-    ├── cert.pem                    A fairly generic cert.   
+    ├── cert.pem                    A generic cert.   
     ├── Dockerfile                  Dockerfile - used to creaate as a container 
     ├── docker.compose.yml          YML file for docker to create container  
     ├── key.pem                     The key for the above generic cert. 
