@@ -12,7 +12,7 @@ This was created demonstrate how to use Flask /w SSL.
 
 ## INSTALLATION
 
-The small section will discuss how just to simply run the app.  
+Too simply run the app.  
 
 ```bash
 git clone https://github.com/tlh45342/flask-example2.git
