@@ -71,7 +71,7 @@ flask-example2 is licensed under the Apache License, Version 2.0. See LICENSE fo
 Many thanks to Python, Flask and other good stacks.
 Please note that this does include http://getskeleton.com/ skeleton.css and normal.css (credit to them)
 
-URLS:  
+** URLS: **  
   https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins  
   https://medium.com/analytics-vidhya/how-to-use-flask-login-with-sqlite3-9891b3248324  
      * At the last review there were errors in the above medium document (reviewed: 9/4/2021)  
