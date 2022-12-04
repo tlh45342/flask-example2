@@ -14,4 +14,4 @@ WORKDIR /opt/flask-example2
 RUN pip install -r requirements.txt
 RUN bash install-services.sh
 RUN sudo systemctl daemon-reload
-RUN sudo systemctl start flask-example2.service
+RUN sudo systemctl start flask-example2
