@@ -30,6 +30,8 @@ I am putting my notes here now - because I will use them.  Consider these notes 
 To create a service entry cd /etc/systemd/system
 Create a file that looks something like is found in the following block.
 As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
+This one assumes the install is at the /opt directory.  This is convienent for creation as as service file as well as  
+placing this in a Docker container.
 
 ```bash
 cat <<EOF | sudo tee /etc/systemd/system/flask-example2.service
