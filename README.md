@@ -33,7 +33,7 @@ Create a file that looks something like is found in the following block.
 As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
 
 ```bash
-cat <<EOF | sudo tee /etc/systemd/system/flask-example4.service
+cat <<EOF | sudo tee /etc/systemd/system/flask-example2.service
 [Unit]
 Description=flask-example2
 
@@ -58,9 +58,11 @@ sudo systemctl stop flask1.service
 ## STRUCTURE
 
     ├── cert.pem                    A fairly generic cert.   
+    ├── Dockerfile                  Dockerfile to creaate as a container   
     ├── key.pem                     The key for the above generic cert. 
     ├── LICENSE                     Copy of the Apache 2.0 license
     ├── requirements.txt            module requirements
+    ├── install-service.sh          Shell script to install service script   
     └── server.py                   Wsgi app
  
 ## LICENSE
