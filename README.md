@@ -23,6 +23,23 @@ To make sure you have all the python modules installed.
 ```bash
 pip install -r requirements.txt
 ```
+
+## DOCKER
+
+If wanting to create as a docker image the following command can be used.
+
+```bash
+git clone https://github.com/tlh45342/flask-example2.git
+cd flask-example2
+docker-compose up
+```
+
+# Quick note about docker image clean up
+```bash
+docker container prune -f
+docker container image rm x <- where x is the container built
+```
+
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
 I am putting my notes here now - because I will use them.  Consider these notes used to implement the Flask APP as a service.
