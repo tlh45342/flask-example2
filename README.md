@@ -58,13 +58,18 @@ sudo systemctl stop flask1.service
 ## STRUCTURE
 
     ├── cert.pem                    A fairly generic cert.   
-    ├── Dockerfile                  Dockerfile - used to creaate as a container   
+    ├── Dockerfile                  Dockerfile - used to creaate as a container 
+    ├── docker.compose.yml          YML file for docker to create container  
     ├── key.pem                     The key for the above generic cert. 
     ├── LICENSE                     Copy of the Apache 2.0 license
     ├── requirements.txt            module requirements
     ├── install-service.sh          Shell script to install service script   
     └── server.py                   Wsgi app
- 
+
+##
+
+As noted this repository was contains a Dockerfile and docker.compose.yml file.
+
 ## LICENSE
 
 flask-example2 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
