@@ -39,10 +39,10 @@ docker-compose up
 docker build git://github.com/tlh45342/flask-example2#main -t example2
 ```
 Please note:  After October 1, 2020 github changed the default branch from master to main.  
-So please not to put #main at the end of the request.
+So please remember to put #main at the end of the request.
 
 ```bash
-docker build github.com/tlh45342/docker-eample
+docker build github.com/tlh45342/docker-example
 ```
 
 # Quick note about docker image clean up.
