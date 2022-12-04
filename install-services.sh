@@ -7,4 +7,5 @@ WorkingDirectory=/opt/flask-example2/
 ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:443 -w 4 server:app
 
 [Install]
-WantedBy=multi-user.t
+WantedBy=multi-user.target
+EOF
