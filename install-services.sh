@@ -4,7 +4,7 @@ Description=flask-example2
 
 [Service]
 WorkingDirectory=/opt/flask-example2/
-ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:443 -w 4 server:app
+ExecStart=/usr/bin/gunicorn -b 0.0.0.0:443 -w 4 server:app
 
 [Install]
 WantedBy=multi-user.target
