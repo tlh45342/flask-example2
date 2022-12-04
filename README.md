@@ -36,7 +36,7 @@ docker-compose up
 
 *One line command to build docker image.*
 ```bash
-docker build git://github.com/tlh45342/flask-example2#main
+docker build git://github.com/tlh45342/flask-example2#main -t example2
 ```
 Please note:  After October 1, 2020 github changed the default branch from master to main.  
 So please not to put #main at the end of the request.
