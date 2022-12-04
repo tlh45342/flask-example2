@@ -43,10 +43,11 @@ docker build git://github.com/tlh45342/flask-example2
 docker build github.com/tlh45342/docker-eample
 ```
 
-# Quick note about docker image clean up
+# Quick note about docker image clean up.  PLEASE MAKE SURE THIS IS WHAT YOU WANT - as it would 
+delete containers and images that aren't running but you intended to keep.
 ```bash
 docker container prune -f
-docker container image rm x <- where x is the container built
+docker image prune -a -f
 ```
 
 ## SIDEBAR: Notes for creating a service for Linux based distributions
