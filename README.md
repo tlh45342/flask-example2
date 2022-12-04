@@ -2,8 +2,9 @@
 
 [![Software License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 
-flask-example2 is a simple example flask app that implements authentication.  This is not designed to be pretty, or clever. This is simply designed TO WORK.
+flask-example2 is a simple example flask app.  It is a simple Hello World! app.
 This example is designed to implement SSL, flask_login, and sqlite.
+This is not designed to be pretty, or clever. This is simply designed to work.
 
 Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple Mac OS x.
 
