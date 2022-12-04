@@ -42,7 +42,7 @@ Please note:  After October 1, 2020 github changed the default branch from maste
 So please remember to put #main at the end of the request.
 
 ```bash
-docker build github.com/tlh45342/docker-example
+docker build github.com/tlh45342/docker-example2#main
 ```
 
 # Quick note about docker image clean up.
