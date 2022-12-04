@@ -38,16 +38,13 @@ docker-compose up
 ```bash
 docker build github.com/tlh45342/flask-example2#main 
 ```
-Please note:  After October 1, 2020 github changed the default branch from master to main.  
-So please remember to put #main at the end of the request.
-
-```bash
-docker build github.com/tlh45342/docker-example2#main
-```
+Please note:  After October 1, 2020 github changed the default branch from **MASTER** to **MAIN**.  
+So please remember to put #main at the end of the request - or rename your branch in github to master.
 
 # Quick note about docker image clean up.
-PLEASE MAKE SURE THIS IS WHAT YOU WANT  
-This would delete containers and images that aren't running but you intended to keep.
+PLEASE REVIEW THIS CAREFFULLY BEFORE USING.
+This would delete containers and images that aren't running.
+Only use this if this what you intend.
 ```bash
 docker container prune -f
 docker image prune -a -f
