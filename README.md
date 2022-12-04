@@ -34,6 +34,12 @@ cd flask-example2
 docker-compose up
 ```
 
+Should be able to use the following - but it looks like I need to discover something to tweak.
+```bash
+docker build git://github.com/tlh45342/flask-example2.git
+```
+
+
 # Quick note about docker image clean up
 ```bash
 docker container prune -f
