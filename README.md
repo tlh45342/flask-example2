@@ -8,8 +8,7 @@ This is not designed to be pretty, or clever. This is simply designed to work.
 
 Work will have been done to test this on Windows 10, Ubuntu 20.04.3 LTS, Apple Mac OS x.
 
-- learning Flask.
-- kicking off your a new project.
+This was created demonstrate how to use Flask /w SSL.
 
 ## INSTALLATION
 
